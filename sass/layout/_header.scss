@@ -1,0 +1,48 @@
+.header {
+    width: auto;
+    text-align: center;
+    background-color: $couleur_fond_grisClair;
+    padding-bottom: 15px;
+
+    &__h1 {
+        width: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: 'shrikhand';
+        background-color: white;
+    }
+    &__localisation{
+        width: auto;
+        background-color: $couleur_fond_gris;
+        padding: 10px;
+        font-family: 'roboto';
+        font-weight: bold;
+        box-shadow: inset 0px 1px 3px grey;
+        &--icone{
+            padding-right: 10px;
+        }
+    }
+    &__h2{
+        width: auto;
+        padding: 20px;
+        font-family: 'roboto';
+        font-weight: bold;
+        font-size: 1.8rem;
+    }
+    & p {
+        width: auto;
+        font-family: 'roboto';
+        font-size: 1rem;
+    }
+    &__button{
+        border-radius: 30px 30px 30px 30px;
+        padding: 15px;
+        background: linear-gradient($couleur_secondaire, $couleur_primaire);
+        border-style: hidden;
+        font-size: 1rem;
+        color: white;
+        box-shadow: 2px 2px 5px 2px #dddddd;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
