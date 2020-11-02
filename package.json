@@ -1,0 +1,19 @@
+{
+  "name": "jonathanchosson_3_02112020",
+  "version": "1.0.0",
+  "description": "Création projet OhMyFood",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonathanChosson/JonathanChosson_3_02112020.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonathanChosson/JonathanChosson_3_02112020/issues"
+  },
+  "homepage": "https://github.com/JonathanChosson/JonathanChosson_3_02112020#readme"
+}
