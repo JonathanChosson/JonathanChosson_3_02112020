@@ -45,13 +45,25 @@
     }
 }
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 1000px){
     .nav{
         &__ul{
             flex-flow: row wrap;
             justify-content: space-around;
             &--li{
                 width:25%;
+        }
+    }
+}
+}
+
+@media screen and (min-width: 700px) and (max-width:999px){
+    .nav{
+        &__ul{
+            flex-flow: row wrap;
+            justify-content: space-around;
+            &--li{
+                width:20%;
         }
     }
 }
