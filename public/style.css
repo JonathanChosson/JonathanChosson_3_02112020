@@ -117,4 +117,61 @@ main * {
   font-weight: lighter;
 }
 
+.article {
+  width: auto;
+  padding: 20px;
+  background-color: #EFEFEF;
+}
+.article__h2 {
+  font-family: "roboto";
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+.article__a {
+  text-decoration: none;
+}
+.article__a:visited {
+  text-decoration: none;
+}
+.article__figure {
+  width: 100%;
+  border-radius: 30px 30px 30px 30px;
+  margin-top: 15px;
+  overflow: hidden;
+}
+.article__figure--img {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+.article__figure--nouveau {
+  border-radius: 10%;
+  padding: 5px 10px;
+  margin-left: 68%;
+  margin-top: 15px;
+  position: absolute;
+  background-color: #99e2d0;
+  color: #2c9c81;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.article__figure--figcaption {
+  height: 50px;
+  background-color: white;
+  color: black;
+  margin-top: -5px;
+  padding: 10px 10px 10px 15px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+.article__figure--figcaption :nth-child(3) {
+  padding-left: 10%;
+  padding-right: 5%;
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-align: right;
+}
+
 /*# sourceMappingURL=style.css.map */
