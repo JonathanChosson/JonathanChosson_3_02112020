@@ -84,6 +84,7 @@ main * {
   list-style-type: none;
   display: flex;
   flex-flow: column wrap;
+  justify-content: center;
 }
 .nav__ul--li {
   width: 80%;
