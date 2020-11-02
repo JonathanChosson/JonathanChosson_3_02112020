@@ -1,0 +1,14 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    margin: 0px;
+    padding: 0px;
+    width : auto;
+    & * {
+        margin: 0px;
+        padding: 0px;
+    }
+}
