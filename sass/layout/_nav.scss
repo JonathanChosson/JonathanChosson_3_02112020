@@ -44,3 +44,15 @@
         }
     }
 }
+
+@media screen and (min-width: 800px){
+    .nav{
+        &__ul{
+            flex-flow: row wrap;
+            justify-content: space-around;
+            &--li{
+                width:25%;
+        }
+    }
+}
+}
