@@ -174,4 +174,28 @@ main * {
   text-align: right;
 }
 
+.footer {
+  width: auto;
+  background-color: #353535;
+  color: white;
+  padding: 20px;
+}
+.footer__h2 {
+  font-family: "shrikhand";
+  font-size: 1rem;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.footer__ul {
+  font-family: "roboto";
+  list-style-type: none;
+}
+.footer__ul--a {
+  color: white;
+  text-decoration: none;
+}
+.footer__ul--li {
+  padding-top: 5px;
+}
+
 /*# sourceMappingURL=style.css.map */
