@@ -213,6 +213,11 @@ main * {
     margin: 10px;
   }
 }
+@media screen and (min-width: 700px) and (max-width: 999px) {
+  .article__figure--nouveau {
+    margin-left: 78%;
+  }
+}
 .footer {
   width: auto;
   background-color: #353535;
