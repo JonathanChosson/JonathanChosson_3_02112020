@@ -193,6 +193,24 @@ main * {
   text-align: right;
 }
 
+@media screen and (min-width: 1000px) {
+  .article {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  .article__h2 {
+    flex: 1 100%;
+  }
+  .article__figure {
+    width: 100%;
+  }
+  .article__a {
+    display: block;
+    width: 20%;
+    margin: 10px;
+  }
+}
 .footer {
   width: auto;
   background-color: #353535;
