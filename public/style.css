@@ -241,5 +241,9 @@ main * {
 .footer__ul--li {
   padding-top: 5px;
 }
+.footer__ul--li span {
+  text-align: center;
+  width: 20px;
+}
 
 /*# sourceMappingURL=style.css.map */
