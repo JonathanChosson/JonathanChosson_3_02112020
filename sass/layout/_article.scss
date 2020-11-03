@@ -19,6 +19,7 @@
         border-radius: 30px 30px 30px 30px;
         margin-top: 15px;
         overflow: hidden;
+        position: relative;
         &--img{
             object-fit: cover;
             height: 200px;
@@ -69,7 +70,7 @@
         }
         &__a{
             display: block;
-            width: 20%;
+            width: 40%;
             margin: 10px;
         }
     }
