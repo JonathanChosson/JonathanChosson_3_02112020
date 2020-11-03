@@ -3,7 +3,6 @@
     text-align: center;
     background-color: $couleur_fond_grisClair;
     padding-bottom: 15px;
-
     &__h1 {
         width: auto;
         padding-top: 10px;
@@ -44,6 +43,21 @@
         box-shadow: 2px 2px 5px 2px #dddddd;
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+    & a{
+        font-size: 1.6rem;
+        float: left;
+        margin: 5px -10px 0px 25px;
+        text-decoration: none;
+        color: #353535;
+    }
+    & a:visited{
+        color: #353535;
+    }
+    &__img{
+        object-fit: cover;
+        height: 250px;
+        width: 100%;
     }
 }
 

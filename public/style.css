@@ -70,6 +70,21 @@ main * {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.header a {
+  font-size: 1.6rem;
+  float: left;
+  margin: 5px -10px 0px 25px;
+  text-decoration: none;
+  color: #353535;
+}
+.header a:visited {
+  color: #353535;
+}
+.header__img {
+  object-fit: cover;
+  height: 250px;
+  width: 100%;
+}
 
 .nav {
   width: auto;
