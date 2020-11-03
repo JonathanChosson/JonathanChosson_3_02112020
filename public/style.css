@@ -264,6 +264,7 @@ main * {
 .menu {
   width: auto;
   background-color: #EFEFEF;
+  text-align: center;
 }
 .menu__h2 {
   position: relative;
@@ -275,6 +276,9 @@ main * {
   background-color: #EFEFEF;
   font-family: "shrikhand";
   font-size: 2rem;
+}
+.menu__sousMenu {
+  text-align: left;
 }
 .menu__sousMenu--h3 {
   font-family: "roboto";
@@ -301,6 +305,17 @@ main * {
 .menu__sousMenu__plat :nth-child(2) {
   margin-top: -25px;
   text-align: right;
+}
+.menu__button {
+  border-radius: 30px 30px 30px 30px;
+  padding: 15px;
+  background: linear-gradient(#FF79DA, #9356DC);
+  border-style: hidden;
+  font-size: 1rem;
+  color: white;
+  box-shadow: 2px 2px 5px 2px #dddddd;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
