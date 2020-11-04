@@ -307,13 +307,54 @@ main * {
   justify-content: space-between;
   align-items: flex-end;
   animation: menu 1000ms 1000ms both;
+  position: relative;
+  overflow: hidden;
   /*animation: plat 1200ms 1500ms both;*/
+}
+.menu__sousMenu__plat:hover :nth-child(2) {
+  width: 60%;
+  transition: width 1000ms;
+}
+.menu__sousMenu__plat:hover :nth-child(3) {
+  margin-right: 40px;
+  transition: margin-right 1000ms;
+}
+.menu__sousMenu__plat:hover :nth-child(4) {
+  right: 0px;
+  opacity: 1;
+  transition: right 1000ms;
+}
+.menu__sousMenu__plat:hover .fa.fa-check {
+  transform: rotate(360deg);
+  transition: transform 1000ms;
 }
 .menu__sousMenu__plat :nth-child(1) {
   flex: 1 100%;
 }
 .menu__sousMenu__plat :nth-child(2) {
   width: 80%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 0.8rem;
+}
+.menu__sousMenu__plat .fa.fa-check {
+  border-radius: 50%;
+  color: #99e2d0;
+  background-color: white;
+  font-size: 1.5rem;
+  transform: rotate(0);
+}
+.menu__sousMenu__plat--validation {
+  opacity: 0;
+  height: 90px;
+  width: 50px;
+  line-height: 100px;
+  text-align: center;
+  background-color: #99e2d0;
+  position: absolute;
+  right: -50px;
+  bottom: 0px;
 }
 .menu__button {
   border-radius: 30px 30px 30px 30px;
@@ -327,19 +368,19 @@ main * {
   margin-bottom: 20px;
 }
 
-@keyframes plat {
-  0% {
-    opacity: 0;
-    margin-bottom: -100px;
-  }
-  70% {
-    opacity: 0;
-  }
-  100% {
-    margin-bottom: 0px;
-    opacity: 1;
-  }
-}
+/* @keyframes plat {
+    0%{
+        opacity: 0;
+        margin-bottom:-100px;
+    }
+    70%{
+        opacity: 0;
+    }
+    100%{
+        margin-bottom: 0px;
+        opacity: 1;
+    }
+} */
 @keyframes menu {
   0% {
     margin-bottom: -70px;
