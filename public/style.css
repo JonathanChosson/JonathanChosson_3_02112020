@@ -368,6 +368,22 @@ main * {
   margin-bottom: 20px;
 }
 
+@media screen and (min-width: 1000px) {
+  .menu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  .menu h2 {
+    flex: 1 100%;
+  }
+  .menu__button {
+    width: 30%;
+  }
+  .menu__sousMenu {
+    width: 30%;
+  }
+}
 /* @keyframes plat {
     0%{
         opacity: 0;

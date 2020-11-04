@@ -105,3 +105,20 @@
         margin-bottom: 20px;
     }
 }
+
+@media screen and (min-width: 1000px){
+    .menu{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        & h2{
+            flex: 1 100%;
+        }
+        &__button{
+            width: 30%;
+        }
+        &__sousMenu{
+            width: 30%;
+        }
+    }
+}
