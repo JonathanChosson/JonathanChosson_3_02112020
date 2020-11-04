@@ -1,0 +1,26 @@
+@keyframes menu {
+    0%{
+        opacity: 0;
+        margin-bottom:-100px;
+    }
+    70%{
+        opacity: 0;
+    }
+    100%{
+        margin-bottom: 0px;
+        opacity: 1;
+    }
+}
+
+@keyframes apparition {
+    0% {
+        transform: scaleY(0);
+        transform-origin: 0% 100%;
+        opacity: 0;
+    }
+    100% {
+        transform: scaleY(1);
+        transform-origin: 0% 100%;
+        opacity: 1;
+    }
+}

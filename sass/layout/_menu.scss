@@ -40,6 +40,7 @@
             flex-flow : row wrap;
             justify-content: space-between;
             align-items: flex-end;
+            animation: menu 1200ms both;
             & :nth-child(1){
                 flex: 1 100%;
             }

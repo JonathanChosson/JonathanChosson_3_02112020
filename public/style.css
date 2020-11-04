@@ -305,6 +305,7 @@ main * {
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: flex-end;
+  animation: menu 1200ms both;
 }
 .menu__sousMenu__plat :nth-child(1) {
   flex: 1 100%;
@@ -322,6 +323,32 @@ main * {
   box-shadow: 2px 2px 5px 2px #dddddd;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+@keyframes menu {
+  0% {
+    opacity: 0;
+    margin-bottom: -100px;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    margin-bottom: 0px;
+    opacity: 1;
+  }
+}
+@keyframes apparition {
+  0% {
+    transform: scaleY(0);
+    transform-origin: 0% 100%;
+    opacity: 0;
+  }
+  100% {
+    transform: scaleY(1);
+    transform-origin: 0% 100%;
+    opacity: 1;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
