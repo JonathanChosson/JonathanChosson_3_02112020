@@ -15,6 +15,7 @@
     }
     &__sousMenu{
         text-align: left;
+        animation: menu 1000ms;
         &--h3{
             font-family: 'roboto';
             padding: 15px 15px 5px 15px;
@@ -40,7 +41,8 @@
             flex-flow : row wrap;
             justify-content: space-between;
             align-items: flex-end;
-            animation: menu 1200ms both;
+            animation: menu 1000ms 1000ms both;
+            /*animation: plat 1200ms 1500ms both;*/
             & :nth-child(1){
                 flex: 1 100%;
             }
