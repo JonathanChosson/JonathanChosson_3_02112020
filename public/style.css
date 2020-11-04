@@ -339,11 +339,6 @@ main * {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.menu__sousMenu__plat h3 {
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
 .menu__sousMenu__plat :nth-child(2) {
   width: 80%;
   overflow: hidden;
