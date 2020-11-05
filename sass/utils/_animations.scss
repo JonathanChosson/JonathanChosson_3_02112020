@@ -53,6 +53,7 @@
     }
 
     100%{
+        -webkit-text-stroke:0px white;
         background: linear-gradient($couleur_secondaire, $couleur_primaire);
         -webkit-background-clip: text;   
     }

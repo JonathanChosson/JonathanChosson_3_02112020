@@ -464,6 +464,7 @@ main * {
     -webkit-background-clip: text;
   }
   100% {
+    -webkit-text-stroke: 0px white;
     background: linear-gradient(#FF79DA, #9356DC);
     -webkit-background-clip: text;
   }
