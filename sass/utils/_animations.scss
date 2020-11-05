@@ -35,3 +35,13 @@
         opacity: 0;
     }
 }
+
+@keyframes coeur{
+    0%{
+
+    }
+    100%{
+        border: none;
+        background: linear-gradient($couleur_secondaire, $couleur_primaire);
+    }
+}

@@ -46,15 +46,20 @@
             flex-flow: column wrap;
             justify-content: center;
             & :nth-child(3){
-                padding-left: 10%;
-                padding-right: 5%;
-                font-size: 1.5rem;
-                font-weight: normal;
+                width: 24px;
+                margin-left: 50%;
+                margin-right: 2%;
+                font-size: 22px;
                 text-align: right;
+                -webkit-text-stroke:2px black;
+                -webkit-text-fill-color: transparent;
+                &:hover {
+                    background: linear-gradient($couleur_secondaire, $couleur_primaire);
+                    -webkit-background-clip: text;                
+                }
             }
         }
     }
-
 }
 
 @media screen and (min-width: 1000px){
