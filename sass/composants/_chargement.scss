@@ -9,7 +9,7 @@
     margin-left: -40px;
     animation: rotation 3s linear;
     animation-fill-mode: forwards;
-    /*&~div{
-        animation: chargement 4000ms ;
-    }*/
+    &~div{
+        animation: menu 1000ms 3200ms both;
+    }
 }

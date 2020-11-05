@@ -34,9 +34,9 @@ main * {
   margin-left: -40px;
   animation: rotation 3s linear;
   animation-fill-mode: forwards;
-  /*&~div{
-      animation: chargement 4000ms ;
-  }*/
+}
+.chargement ~ div {
+  animation: menu 1000ms 3200ms both;
 }
 
 .header {
@@ -295,7 +295,6 @@ main * {
 }
 .menu__sousMenu {
   text-align: left;
-  animation: menu 1000ms 3000ms both;
 }
 .menu__sousMenu--h3 {
   font-family: "roboto";
@@ -322,7 +321,7 @@ main * {
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: flex-end;
-  animation: menu 1000ms 3300ms both;
+  animation: menu 1000ms 3500ms both;
   position: relative;
   overflow: hidden;
   /*animation: plat 1200ms 1500ms both;*/

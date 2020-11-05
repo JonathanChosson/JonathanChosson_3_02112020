@@ -15,7 +15,6 @@
     }
     &__sousMenu{
         text-align: left;
-        animation: menu 1000ms 3000ms both;
         &--h3{
             font-family: 'roboto';
             padding: 15px 15px 5px 15px;
@@ -41,7 +40,7 @@
             flex-flow : row wrap;
             justify-content: space-between;
             align-items: flex-end;
-            animation: menu 1000ms 3300ms both;
+            animation: menu 1000ms 3500ms both;
             position: relative;
             overflow: hidden;
             /*animation: plat 1200ms 1500ms both;*/
