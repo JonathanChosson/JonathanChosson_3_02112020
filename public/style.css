@@ -23,6 +23,22 @@ main * {
   padding: 0px;
 }
 
+.chargement {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #99E2D0;
+  border-radius: 50%;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 50%;
+  margin-left: -40px;
+  animation: rotation 3s linear;
+  animation-fill-mode: forwards;
+  /*&~div{
+      animation: chargement 4000ms ;
+  }*/
+}
+
 .header {
   width: auto;
   text-align: center;
@@ -279,7 +295,7 @@ main * {
 }
 .menu__sousMenu {
   text-align: left;
-  animation: menu 1000ms;
+  animation: menu 1000ms 3000ms both;
 }
 .menu__sousMenu--h3 {
   font-family: "roboto";
@@ -306,7 +322,7 @@ main * {
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: flex-end;
-  animation: menu 1000ms 1000ms both;
+  animation: menu 1000ms 3300ms both;
   position: relative;
   overflow: hidden;
   /*animation: plat 1200ms 1500ms both;*/
@@ -373,8 +389,8 @@ main * {
   font-size: 1rem;
   color: white;
   box-shadow: 2px 2px 5px 2px #dddddd;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 @media screen and (min-width: 1000px) {
@@ -393,19 +409,6 @@ main * {
     width: 30%;
   }
 }
-/* @keyframes plat {
-    0%{
-        opacity: 0;
-        margin-bottom:-100px;
-    }
-    70%{
-        opacity: 0;
-    }
-    100%{
-        margin-bottom: 0px;
-        opacity: 1;
-    }
-} */
 @keyframes menu {
   0% {
     margin-bottom: -70px;
@@ -418,6 +421,27 @@ main * {
     opacity: 1;
     transform: scaleY(1);
     transform-origin: 100% 0%;
+  }
+}
+@keyframes chargement {
+  0% {
+    opacity: 0%;
+  }
+  90% {
+    opacity: 99%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(360deg);
+    opacity: 0;
   }
 }
 

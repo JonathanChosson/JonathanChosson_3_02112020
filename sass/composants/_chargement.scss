@@ -1,0 +1,15 @@
+.chargement {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid $couleur_tertiaire;
+    border-radius: 50%;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 50%;
+    margin-left: -40px;
+    animation: rotation 3s linear;
+    animation-fill-mode: forwards;
+    /*&~div{
+        animation: chargement 4000ms ;
+    }*/
+}

@@ -1,9 +1,10 @@
 @import "./utils/variables";
 @import "./base/typographie.scss";
 @import "./base/body";
+@import "./composants/chargement";
 @import "./layout/header";
 @import "./layout/nav";
 @import "./layout/article";
 @import "./layout/footer";
 @import "./layout/menu";
-@import "./utils/animations"
+@import "./utils/animations";
