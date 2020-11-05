@@ -38,6 +38,9 @@ main * {
 .chargement ~ div {
   animation: menu 1000ms 3200ms both;
 }
+.chargement ~ a {
+  animation: menu 1300ms 3200ms both;
+}
 
 .header {
   width: auto;
