@@ -231,8 +231,8 @@ main * {
   -webkit-text-fill-color: transparent;
 }
 .article__figure--figcaption :nth-child(3):hover {
-  background: linear-gradient(#FF79DA, #9356DC);
-  -webkit-background-clip: text;
+  animation: fondCoeur 1500ms;
+  animation-fill-mode: forwards;
 }
 
 @media screen and (min-width: 1000px) {
@@ -456,6 +456,16 @@ main * {
   100% {
     border: none;
     background: linear-gradient(#FF79DA, #9356DC);
+  }
+}
+@keyframes fondCoeur {
+  0% {
+    background: linear-gradient(white, white);
+    -webkit-background-clip: text;
+  }
+  100% {
+    background: linear-gradient(#FF79DA, #9356DC);
+    -webkit-background-clip: text;
   }
 }
 

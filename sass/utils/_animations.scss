@@ -45,3 +45,15 @@
         background: linear-gradient($couleur_secondaire, $couleur_primaire);
     }
 }
+
+@keyframes fondCoeur {
+    0%{
+        background: linear-gradient(white, white);
+        -webkit-background-clip: text;   
+    }
+
+    100%{
+        background: linear-gradient($couleur_secondaire, $couleur_primaire);
+        -webkit-background-clip: text;   
+    }
+}
