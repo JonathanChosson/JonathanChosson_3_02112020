@@ -12,6 +12,17 @@
         background-color: $couleur_fond_grisClair;
         font-family: 'shrikhand';
         font-size: 2rem;
+        & :nth-child(1){
+
+            font-size: 22px;
+            text-align: right;
+            -webkit-text-stroke:2px black;
+            -webkit-text-fill-color: transparent;
+            &:hover {
+                animation: fondCoeur 1500ms;
+                animation-fill-mode: forwards;
+            }
+        }
     }
     &__sousMenu{
         text-align: left;
