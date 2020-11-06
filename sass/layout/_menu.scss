@@ -55,26 +55,28 @@
             position: relative;
             overflow: hidden;
             /*animation: plat 1200ms 1500ms both;*/
-            &:hover :nth-child(1){
+            &:hover {
+                & :nth-child(1){
                 margin-right: 55px;
                 transition: margin-right 1000ms;
-            }
-            &:hover :nth-child(2){
+                }
+                & :nth-child(2){
                 width:60%;
                 transition: width 1000ms;
-            }
-            &:hover :nth-child(3){
+                }
+                & :nth-child(3){
                 margin-right: 60px;
                 transition: margin-right 1000ms;
-            }
-            &:hover :nth-child(4){
+                }
+                & :nth-child(4){
                 right: 0px;
                 opacity: 1;
                 transition: right 1000ms;
-            }
-            &:hover .fa.fa-check{
+                }
+                & .fa.fa-check{
                 transform: rotate(360deg);
                 transition: transform 1000ms;
+            }
             }
             & :nth-child(1){
                 flex: 1 100%;
