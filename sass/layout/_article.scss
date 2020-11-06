@@ -2,12 +2,6 @@
     width: auto;
     padding: 20px;
     background-color: $couleur_fond_grisClair;
-    &__h2{
-        font-family: 'roboto';
-        font-weight: bold;
-        font-size: 1.8rem;
-        margin-bottom: 10px;
-    }
     &__a{
         text-decoration: none;
         &:visited{
@@ -56,6 +50,10 @@
                     animation-fill-mode: forwards;
                 }
             }
+        & h3{
+            font-family: 'roboto';
+            font-weight: bold;
+        }
         }
     }
 }

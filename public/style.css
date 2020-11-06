@@ -180,12 +180,6 @@ main * {
   padding: 20px;
   background-color: #EFEFEF;
 }
-.article__h2 {
-  font-family: "roboto";
-  font-weight: bold;
-  font-size: 1.8rem;
-  margin-bottom: 10px;
-}
 .article__a {
   text-decoration: none;
 }
@@ -235,6 +229,10 @@ main * {
 .article__figure--figcaption :nth-child(3):hover {
   animation: fondCoeur 1500ms;
   animation-fill-mode: forwards;
+}
+.article__figure--figcaption h3 {
+  font-family: "roboto";
+  font-weight: bold;
 }
 
 @media screen and (min-width: 1000px) {
