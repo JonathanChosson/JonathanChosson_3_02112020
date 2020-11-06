@@ -412,6 +412,10 @@ main * {
   margin-top: 40px;
   margin-bottom: 40px;
 }
+.menu__button:hover {
+  box-shadow: 2px 2px 5px 2px #B9B9B9;
+  opacity: 90%;
+}
 
 @media screen and (min-width: 1000px) {
   .menu {
