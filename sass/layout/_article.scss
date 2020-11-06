@@ -46,9 +46,7 @@
             flex-flow: column wrap;
             justify-content: center;
             & :nth-child(3){
-                width: 24px;
-                margin-left: 50%;
-                margin-right: 2%;
+                width: auto;
                 font-size: 22px;
                 text-align: right;
                 -webkit-text-stroke:2px black;
