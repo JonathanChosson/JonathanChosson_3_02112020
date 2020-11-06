@@ -42,6 +42,12 @@
                 color: white;
                 font-weight: lighter;
             }
+            &:hover {
+                background: lighten($couleur_secondaire,24%);
+                & :nth-child(2){
+                    color: $couleur_secondaire;
+                }
+            }
         }
     }
 }

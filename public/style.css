@@ -156,6 +156,12 @@ main * {
   color: white;
   font-weight: lighter;
 }
+.nav__ul--li:hover {
+  background: #fff3fc;
+}
+.nav__ul--li:hover :nth-child(2) {
+  color: #FF79DA;
+}
 
 @media screen and (min-width: 1000px) {
   .nav__ul {
