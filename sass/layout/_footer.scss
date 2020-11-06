@@ -26,3 +26,15 @@
         }
     }
 }
+
+@media screen and (min-width: 1000px){
+    .footer{
+        text-align : center;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width:999px){
+    .footer{
+        text-align : center;
+    }
+}
