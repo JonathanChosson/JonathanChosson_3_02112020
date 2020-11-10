@@ -39,7 +39,7 @@ main * {
   animation: menu 1000ms 3200ms both;
 }
 .chargement ~ a {
-  animation: menu 1300ms 3200ms both;
+  animation: menu 1000ms 3200ms both;
 }
 
 .header {
@@ -253,7 +253,7 @@ main * {
   .article__figure {
     width: 100%;
   }
-  .article__a {
+  .article__div {
     display: block;
     width: 40%;
     margin: 10px;
